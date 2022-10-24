@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="http://fonts.cdnfonts.com/css/ds-digital" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" href="./Images/clock_Logo.jpg">
+</head>
+
+<body dir="ltr">
+
+    <div class="O-clock">
+        <div id="hour" class="Date--Style">0</div>
+        <div id="minute" class="Date--Style">0</div>
+        <div id="second" class="Date--Style">0</div>
+    </div>
+
+
+    <div class="Clock">
+
+        <div class="Clock-Center">
+            <span class="Hand-Clock" id="Hour-Hand-Clock"></span>
+            <span class="Hand-Clock" id="Minute-Hand-Clock"></span>
+            <span class="Hand-Clock" id="Second-Hand-Clock"></span>
+            <span class="Hand-Clock"></span>
+        </div>
+
+        <div>
+            <span class="Clock-Line"></span>
+            <span class="Clock-Line"></span>
+            <span class="Clock-Line"></span>
+            <span class="Clock-Line"></span>
+            <span class="Clock-Line"></span>
+            <span class="Clock-Line"></span>
+        </div>
+
+    </div>
+
+    <div class="StopDivision">
+        <div>
+            <button type="button" id="StopBtn"><i class="bi bi-flag-fill"></i></button>
+        </div>
+    </div>
+    <div class="StopDivision">
+        <div id="GetDate"></div>
+    </div>
+
+    <div class="Created">
+        <div style="position: fixed; bottom: 5%;">Design By Nima Tajik</div>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+
+</html>

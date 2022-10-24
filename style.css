@@ -1,0 +1,153 @@
+@import url('http://fonts.cdnfonts.com/css/ds-digital');
+*{
+    font-family: 'DS-Digital' !important;
+}
+body{
+    background: url(./Images/paper-textured-background.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.O-clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Date--Style{
+    margin: 5px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.Clock{
+    background: linear-gradient(90deg, rgba(14,0,255,1) 15%, rgba(0,212,255,1) 100%);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.Clock-Center{
+    /* background: white; */
+    background: linear-gradient(90deg, rgba(14,0,255,1) 15%, rgba(0,212,255,1) 100%);
+    width: 285px;
+    height: 285px;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    z-index: 1;
+}
+
+.Clock-Line:nth-child(1){
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(360deg);
+}
+.Clock-Line:nth-child(2){
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(90deg);
+}
+.Clock-Line:nth-child(3){
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(30deg);
+}
+.Clock-Line:nth-child(4){
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(60deg);
+}
+.Clock-Line:nth-child(5){
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(150deg);
+}
+.Clock-Line:nth-child(6){
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    transform: rotate(120deg);
+}
+
+.Hand-Clock:nth-child(1){
+    position: absolute;
+    width: 2px;
+    height: 45px;
+    background: black;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+}
+.Hand-Clock:nth-child(2){
+    position: absolute;
+    width: 2px;
+    height: 65px;
+    background: black;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+}
+.Hand-Clock:nth-child(3){
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: red;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+}
+.StopDivision{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+#GetDate{
+    font-weight: bold;
+    font-size: 25px;
+}
+#StopBtn{
+    background: linear-gradient(90deg, rgba(14,0,255,1) 100%, rgba(0,212,255,1) 15%);
+    border-radius: 6px;
+    padding: 20px 35px 20px 35px;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+    transition: background 3s;
+}
+.Created{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Created div{
+    font-family: cursive !important;
+    font-weight: bold;
+}
